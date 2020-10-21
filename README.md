@@ -6,6 +6,10 @@ Color scheme was created by duplicating default Monokai Sublime theme and change
 
 There is no usual package for this to install with Sublime Package Control yet because either I didn't learn how to do that yet or I didn't deem it necessary.
 
+If you find any errors or missing features feel free to contact me... somehow.
+
+You are free to use these files and change them however you like.
+
 ## Installation
 - **_Manual_** <br/>
   _Windows_:  Copy `sublime-syntax` and `sublime-color-scheme` files to Sublime `%appdata%\Sublime Text 3\Packages\User` directory<br/>
