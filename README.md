@@ -20,3 +20,4 @@ You are free to use these files and change them however you like.
   
 <br/>
 After installation simply select color scheme and syntax in Sublime.
+_Note: You probably have to already have Package Control installed (Ctrl+Shift+P -> Install Package Control)_
