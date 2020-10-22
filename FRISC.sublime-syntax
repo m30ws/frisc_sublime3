@@ -43,7 +43,7 @@ contexts:
       scope: punctuation.definition.annotation
 
     # Numbers
-    - match: '\b(-)?[0-9.]+\b'
+    - match: '\b(-)?[0-9A-Fa-f]+\b'
       scope: constant.numeric
 
     # Registers
