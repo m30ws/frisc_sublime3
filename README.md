@@ -6,17 +6,22 @@ Color scheme was created by duplicating default Monokai Sublime theme and change
 
 There is no usual package for this to install with Sublime Package Control yet because either I didn't learn how to do that yet or I didn't deem it necessary.
 
-If you find any errors or missing features or simply have any suggestions feel free to contact me... somehow.
+If you find any errors or missing features or simply have any suggestions feel free to contact me...somehow.
 
 You are free to use these files and change them however you like.
 
 ## Installation
 - **_Manual_** <br/>
-  _Windows_:  Copy `.sublime-syntax` and `.sublime-color-scheme` files to Sublime `%appdata%\Sublime Text 3\Packages\User` directory<br/>
+  - _Windows_:  Copy `.sublime-syntax` and `.sublime-color-scheme` files to `%appdata%\Sublime Text 3\Packages\User` directory<br/>
   (_`%appdata%` expands to `C:\Users\<user>\AppData\Roaming`_)
   
+  - _Linux_: Copy `.sublime-syntax` and `.sublime-color-scheme` files to Sublime `/home/<user>/.config/sublime-text-3/Packages/User` directory<br/>
+  
 - **_Automatic_**<br/>
-  _Windows_:  Run `.bat` install script provided _(Sidenote: you should never just run things a stranger on internet tells you to but rather inspect them first)_
+  _(Sidenote: you should never just run things a stranger on internet tells you to run but rather inspect them first yourself)_
+  
+  - _Windows_: `st3_frisc_install.bat`
+  - _Linux_: `./st3_frisc_install.sh`
   
 ## Usage
 Simply select color scheme and syntax in Sublime:
