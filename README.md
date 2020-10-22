@@ -23,4 +23,4 @@ Simply select color scheme and syntax in Sublime:
 - Menu: `View -> Syntax -> FRISC` for syntax highlighting, `Preferences -> Color Scheme -> FRISC` for color scheme
 - Command palette: `Ctrl+Shift+P -> syntax FRISC` for syntax highlighting, `Ctrl+Shift+P -> ui color -> FRISC` for color scheme
 
-_Note: You probably have to already have Package Control installed (Ctrl+Shift+P -> Install Package Control)_
+_Note: You probably have to already have Package Control installed (`Ctrl+Shift+P -> Install Package Control`)_
