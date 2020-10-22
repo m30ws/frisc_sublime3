@@ -23,10 +23,7 @@ contexts:
       push: line_comment
 
     # Main keywords
-    - match: '\b(ADD|ADC|SUB|SBC|
-                 CMP|AND|OR|XOR|
-                 SHL|SHR|ASHR|ROTL|
-                 ROTR|MOVE|PUSH|POP)\b'
+    - match: '\b(ADD|ADC|SUB|SBC|CMP|AND|OR|XOR|SHL|SHR|ASHR|ROTL|ROTR|MOVE|PUSH|POP)\b'
       scope: keyword
 
     # Mem ops
@@ -34,8 +31,7 @@ contexts:
       scope: keyword
 
     # (Conditional) mnemonics and jumps
-    - match: '\b(JP|JR|CALL|RET|RETI|RETN|HALT)(_(C|NC|V|NV|N|NN|M|P|Z|NZ|EQ|NE|
-                          ULE|ULT|UGE|UGT|SLE|SLT|SGE|SGT))?\b'
+    - match: '\b(JP|JR|CALL|RET|RETI|RETN|HALT)(_(C|NC|V|NV|N|NN|M|P|Z|NZ|EQ|NE|ULE|ULT|UGE|UGT|SLE|SLT|SGE|SGT))?\b'
       scope: keyword
 
     # Assembler commands
