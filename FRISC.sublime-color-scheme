@@ -1,6 +1,6 @@
 {
     "name": "FRISC Monokai",
-    "author": "Sublime HQ Pty Ltd, Wimer Hazenberg; edited by m30ws for FRISC",
+    "author": "Sublime HQ Pty Ltd, Wimer Hazenberg, edited by m30ws for FRISC",
     "variables":
     {
         "black": "hsl(0, 0%, 0%)",
