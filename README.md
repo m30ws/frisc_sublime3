@@ -16,7 +16,7 @@ You are free to use these files and change them however you like.
   (_`%appdata%` expands to `C:\Users\<user>\AppData\Roaming`_)
   
 - **_Automatic_**<br/>
-  _Windows_:  Run `.bat` install script provided
+  _Windows_:  Run `.bat` install script provided _(Sidenote: you should never just run things a stranger on internet tells you to but rather inspect them first)_
   
 <br/>
 After installation simply select color scheme and syntax in Sublime.
