@@ -12,13 +12,15 @@ You are free to use these files and change them however you like.
 
 ## Installation
 - **_Manual_** <br/>
-  _Windows_:  Copy `sublime-syntax` and `sublime-color-scheme` files to Sublime `%appdata%\Sublime Text 3\Packages\User` directory<br/>
+  _Windows_:  Copy `.sublime-syntax` and `.sublime-color-scheme` files to Sublime `%appdata%\Sublime Text 3\Packages\User` directory<br/>
   (_`%appdata%` expands to `C:\Users\<user>\AppData\Roaming`_)
   
 - **_Automatic_**<br/>
   _Windows_:  Run `.bat` install script provided _(Sidenote: you should never just run things a stranger on internet tells you to but rather inspect them first)_
   
-<br/>
-After installation simply select color scheme and syntax in Sublime.
+## Usage
+Simply select color scheme and syntax in Sublime:
+- Menu: `View -> Syntax -> FRISC` for syntax highlighting, `Preferences -> Color Scheme -> FRISC` for color scheme
+- Command palette: `Ctrl+Shift+P -> syntax FRISC` for syntax highlighting, `Ctrl+Shift+P -> ui color -> FRISC` for color scheme
 
 _Note: You probably have to already have Package Control installed (Ctrl+Shift+P -> Install Package Control)_
