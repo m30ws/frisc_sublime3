@@ -55,7 +55,7 @@ contexts:
       scope: support.function
 
     # Variable/address names
-    - match: '\b[A-Z]*\b'
+    - match: '\b[_A-Za-z]+\b'
       scope: variable
 
   double_quoted_string:
