@@ -39,7 +39,7 @@ contexts:
       scope: punctuation.definition.annotation
 
     # Numbers
-    - match: '\b(-)?[0-9A-Fa-f]+\b'
+    - match: '(-)?[0-9A-Fa-f]+\b'
       scope: constant.numeric
 
     # Registers
@@ -47,7 +47,7 @@ contexts:
       scope: variable.language
 
     # Number format specifiers (%b, %d, %h)
-    - match: '((?<=( |\t|\+|\-))(%[Bb]|%[Dd]|%[Hh])(?=( |\t)))'
+    - match: '((?<=( |\t|\+|\-))(%[Bb]|%[Dd]|%[Hh])(?=( |\t|[0-9])))'
       scope: variable.annotation
 
     # Macros
